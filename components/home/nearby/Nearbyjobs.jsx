@@ -5,7 +5,6 @@ import styles from "./nearbyjobs.style";
 import { COLORS } from "../../../constants";
 import NearbyJobCard from "../../common/cards/nearby/NearbyJobCard";
 import useFetch from "../../../hook/useFetch";
-import { useState } from "react";
 
 export default Nearbyjobs = () => {
   const router = useRouter();
